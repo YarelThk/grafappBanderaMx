@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.title {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hex-text {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Bandera */
+.flag-container {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    height: 260px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+}
+
+.flag-section {
+    flex: 1;
+    transition: background-color 0.4s ease;
+}
+
+.white-section {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Imagen escudo */
+.escudo-img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0px 8px 15px rgba(0,0,0,0.5));
+}
+
+/* Hover elegante */
+.flag-container:hover {
+    transform: scale(1.02);
+}
+
+/* Autores */
+.authors p {
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
